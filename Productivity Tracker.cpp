@@ -211,7 +211,7 @@ int main()
         cout<<"5. Search Task."<<endl;
         cout<<"6. Exit"<<endl;
 
-        cout<<endl<<"Enter choice between 1 - 5."<<endl;
+        cout<<endl<<"Enter choice between 1 - 6."<<endl;
         cout<<endl<<"Your choice: ";
         cin>>a;
 
