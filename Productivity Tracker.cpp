@@ -71,7 +71,13 @@ void readData()
     ifstream read;
     read.open("tasks.txt");
     cout << "\n\t\t\t------------------Your current Tasks in the list--------------------";
-    
+    if(!read)
+{
+   cout<<"\nYou have no tasks."<<endl;
+
+}
+    else
+{
     while (!read.eof()) 
     {
         read >> todo.id;
@@ -81,7 +87,7 @@ void readData()
     }
     read.close();
 }
-
+}
 int searchData() 
 {
     system("cls");
