@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <bits/stdc++.h>
 #include<conio.h>
@@ -44,10 +45,10 @@ void addTodo()
 {
     system("cls");
     cout<<"\n\n\t\t\t\t\t";
-    cout<<" WELLCOME TO Your Productivity Tracker "<<endl;
+    cout<<" WELCOME TO YOUR PRODUCTIVITY TRACKER "<<endl;
     cout<<"\n\t\t\t************************************************************************"<<endl<<endl;
 
-    cout<<"\n\n\t\t\t\t  Now Time : ";
+    cout<<"\n\n\t\t\t\t  Time Now : ";
     time_now();
     cout<<"\n"<<endl;
 
@@ -68,7 +69,7 @@ void addTodo()
     write.close();
 
     char ch;
-    display_ui("\n\tDo you want to add more task? ( y or n ) : ");
+    display_ui("\n\tDo you want to add more tasks? ( y or n ) : ");
     cin>> ch;
 
     if(ch == 'y'||ch == 'Y')
@@ -92,17 +93,17 @@ void readData()
 {
     system("cls");
     cout<<"\n\n\t\t\t\t\t";
-    cout<<" WELLCOME TO Your Productivity Tracker "<<endl;
+    cout<<" WELCOME TO YOUR PRODUCTIVITY TRACKER "<<endl;
     cout<<"\n\t\t\t************************************************************************"<<endl<<endl;
 
-    cout<<"\n\n\t\t\t\t  Now Time : ";
+    cout<<"\n\n\t\t\t\t  Time Now : ";
     time_now();
     cout<<"\n"<<endl;
 
     todo todo;
     ifstream read;
     read.open("tasks.txt");
-    cout << "\n\t\t\t------------------Your current Tasks in the list--------------------\n";
+    cout << "\n\t\t\t------------------Your current tasks in the list--------------------\n";
     if(!read)
     {
         display_ui("   You have no tasks..... >_< ");
@@ -127,10 +128,10 @@ int searchData()
 {
     system("cls");
     cout<<"\n\n\n\t\t\t\t\t";
-    cout<<" WELLCOME TO Your Productivity Tracker "<<endl;
+    cout<<" WELCOME TO YOUR PRODUCTIVITY TRACKER "<<endl;
     cout<<"\n\n\t\t\t************************************************************************"<<endl<<endl;
 
-    cout<<"\n\n\t\t\t\t  Now Time : ";
+    cout<<"\n\n\t\t\t\t  Time Now : ";
     time_now();
     cout<<"\n"<<endl;
 
@@ -139,7 +140,7 @@ int searchData()
 read.close();
     if(!read)
     {
-        display_ui("   You have no tasks..... >_< ");
+        display_ui("     You have no tasks..... >_< ");
             cout<<endl;
 
     }
@@ -171,10 +172,10 @@ void deleteData()
 {
     system("cls");
     cout<<"\n\n\n\t\t\t\t\t";
-    cout<<" WELLCOME TO Your Productivity Tracker "<<endl;
+    cout<<" WELCOME TO YOUR PRODUCTIVITY TRACKER "<<endl;
     cout<<"\n\n\t\t\t************************************************************************"<<endl<<endl;
 
-    cout<<"\n\n\t\t\t\t  Now Time : ";
+    cout<<"\n\n\t\t\t\t  Time Now : ";
     time_now();
     cout<<"\n"<<endl;
 
@@ -233,10 +234,10 @@ void deletealldata()
 {
     system("cls");
     cout<<"\n\n\n\t\t\t\t\t";
-    cout<<" WELLCOME TO Your Productivity Tracker "<<endl;
+    cout<<" WELCOME TO YOUR PRODUCTIVITY TRACKER "<<endl;
     cout<<"\n\n\t\t\t************************************************************************"<<endl<<endl;
 
-    cout<<"\n\n\t\t\t\t  Now Time : ";
+    cout<<"\n\n\t\t\t\t  Time Now : ";
     time_now();
     cout<<"\n"<<endl;
 
@@ -279,12 +280,12 @@ void deletealldata()
 
 int main()
 {
-    string unch = "  WELLCOME TO OUR PRODUCTIVITY TRACKER ";
+    string unch = "  WELCOME TO YOUR PRODUCTIVITY TRACKER ";
     display_ui(unch);
         cout<<endl;
     cout<<"\n\t\t\t************************************************************************"<<endl<<endl;
 
-    cout<<"\t\t\t\t\tPress Enter to Enter the System  ^.^ ...";
+    cout<<"\t\t\t\t\tPress Enter to Start the System  ^.^ ...";
     getch();
     ifstream read;
     read.open("num.txt");
@@ -297,7 +298,7 @@ int main()
         ID = 0;
     }
     read.close();
-    cout<<"\n\n\n\t\t\t\t  Now Time : ";
+    cout<<"\n\n\n\t\t\t\t  Time Now : ";
     time_now();
     cout<<endl<<endl;
     int a, b = 1;
