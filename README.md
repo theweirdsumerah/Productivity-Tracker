@@ -1,5 +1,5 @@
 # Productivity-Tracker
-You can track your daily task ...<br>
+You can track your daily tasks ...<br>
 
 <ins>Team members:</ins><br>
 Sirajum Monira (ID:374)<br>
