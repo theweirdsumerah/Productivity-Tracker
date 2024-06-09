@@ -300,7 +300,7 @@ void deletealldata()
     system("cls");
     cout<<"\n\n\n\t\t\t\t\t";
     cout<<" WELCOME TO YOUR PRODUCTIVITY TRACKER "<<endl;
-    cout<<"\n\n\t\t\t************************************************************************"<<endl<<endl;
+    cout<<"\n\n\t\t\t***********************************************************************"<<endl<<endl;
 
     cout<<"\n\n\t\t\t\t  Time Now : ";
     time_now();
