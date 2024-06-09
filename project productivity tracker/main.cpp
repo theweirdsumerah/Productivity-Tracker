@@ -191,10 +191,10 @@ int searchData()
             {
                 display_ui("\n\tData not found ...");
                 cout<<endl;
-                display_ui("\n\tDo you want to see all tasks ? or back to the main manu ? ");
+                display_ui("\n\tDo you want to see all tasks ? or back to the main menu ? ");
                 cout<<endl;
                 cout<<"\n\tPress ""1"" for see all tasks . "<<endl;
-                cout<<"\tPress ""2"" for main manu . "<<endl;
+                cout<<"\tPress ""2"" for main menu . "<<endl;
                 cout<<endl<<"\tYour choice: ";
                 int a=0;
                 cin>>a;
