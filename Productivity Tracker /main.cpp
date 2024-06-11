@@ -191,7 +191,7 @@ int searchData()
             {
                 display_ui("\n\tData not found ...");
                 cout<<endl;
-                display_ui("\n\tDo you want to see all tasks ? or back to the main menu ? ");
+                display_ui("\n\tDo you want to see all tasks ? or back to the main manu ? ");
                 cout<<endl;
                 cout<<"\n\tPress ""1"" for see all tasks . "<<endl;
                 cout<<"\tPress ""2"" for main menu . "<<endl;
